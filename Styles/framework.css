@@ -1,0 +1,100 @@
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 300px) {
+    p {
+        display: none;
+    }
+}
+
+.row {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;  
+    flex-wrap: wrap; 
+    padding: 0.1%;
+    margin: 0.2%
+}
+
+.Header {
+    height: 150px;
+    margin-right: auto;
+}
+
+.Header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.Header p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.67%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.67%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.67%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.67%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.row p {
+    overflow: auto;
+    font-size: 20px;
+    /* height: 50%; */
+    color: red;
+    padding: 5px;
+}
+.row h3 {
+    color: blue;
+    font-size: 30px;
+    padding: 5px;
+}
